@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-   <div>
+   <div className="z-30 sticky top-0 bg-white">
     <div className="flex justify-around items-center m-10 font-sans font-bold flex-wrap my-5 py-5 gap-y-5 sm:">
       <div>
         <h1 className="flex text-center gap-x-3 items-center text-[#375534]"> <FaCartShopping className="text-4xl text-gray-600"/> GREEN MART </h1>
